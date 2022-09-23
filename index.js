@@ -32,7 +32,7 @@ async function main() {
 				await loadImage(
 					image
 						? image
-						: "./optimized7.png",
+						: "./rdjhb3p.png",
 				),
 				50,
 				5,
