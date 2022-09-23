@@ -29,7 +29,7 @@ async function main() {
 			ctx.save();
 			//roundedImage(50, 5, 90, 90, 40);
 			ctx.drawImage(
-				await loadImage(image ? image : "./optimized.png"),
+				await loadImage(image ? image : "./optimized7.png"),
 				50,
 				5,
 				90,
