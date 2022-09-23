@@ -29,7 +29,11 @@ async function main() {
 			ctx.save();
 			//roundedImage(50, 5, 90, 90, 40);
 			ctx.drawImage(
-				await loadImage(image ? image : "https://media.discordapp.net/attachments/999351203064459375/1022729352930144286/djhb3p_2.png?width=90&height=100"),
+				await loadImage(
+					image
+						? image
+						: "./optimized7.png",
+				),
 				50,
 				5,
 				90,
