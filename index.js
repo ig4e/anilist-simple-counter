@@ -52,8 +52,8 @@ async function main() {
 }
 
 main();
-
-app.listen(process.env.PORT || 3000, () => {
-	console.log("[SEKAI-COUNTER]: Server Started");
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+	console.log("[SEKAI-COUNTER]: Server Started Port " + PORT);
 });
 mongoose.connect(process.env.db);
