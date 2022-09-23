@@ -40,7 +40,7 @@ async function main() {
 			ctx.fillText("Profile Views", 60 + 90, 45);
 
 			ctx.font = "25px Arial";
-			ctx.fillStyle = countColor ? countColor : "white";
+			ctx.fillStyle = countColor ? countColor : "#FFFF2C";
 			ctx.fillText(link.count, 60 + 90, 75);
 
 			res.type("webp");
